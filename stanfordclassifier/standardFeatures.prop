@@ -1,0 +1,20 @@
+#
+# Features for (in)consistency classification
+#
+useClassFeature=true
+1.lowercase=true
+1.useSplitWords=true
+1.splitWordsRegexp=\\s
+
+#
+# Mapping
+#
+goldAnswerColumn=0
+displayedColumn=1
+
+#
+# Model 
+#
+# (useNB=false is MaxEnt; useNB=true is NaiveBayes)
+useNB=false
+
